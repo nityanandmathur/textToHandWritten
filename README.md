@@ -1,6 +1,8 @@
 # textToHandWritten
 This repository shows you how to create a GUI that converts a string(user-input) to handwriting.
 
+![Screenshot](textToHW.png)
+
 **_Requirements :_**
 
 - pywhatkit
@@ -20,5 +22,8 @@ Install pyinstaller - "pip install pyinstaller"
 
 **_pyinstaller_** is used to convert **_.py_** file to **_.exe_** file.
 
-#
+#How to create GUI
+1. Download the source code **_TexttoImg_** file.
+   - This code uses **_tkinker_** for GUI generation and **_pywhatkit_** for converting text to       handwriting.
+   - 
 
