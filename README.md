@@ -30,5 +30,7 @@ Install pyinstaller - "pip install pyinstaller"
    - **_disp_** method opens image from the location where output file is saved. Need to be changed.
 2. In the folder where the source code has been saved, open **_Powershell_** or **_Command Prompt_**.
 3. Type - "pyinstaller --onefile -w 'TexttoImg.py'
-4. You will get a directory looking like this - 
+4. You will get a directory looking like this - ![Screenshot](DirView.png)
+5. Open the **_dist_** folder. You will find your executable file in this folder.
+6. Now, copy the path of the folder 
 
