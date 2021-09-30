@@ -25,5 +25,10 @@ Install pyinstaller - "pip install pyinstaller"
 #How to create GUI
 1. Download the source code **_TexttoImg_** file.
    - This code uses **_tkinker_** for GUI generation and **_pywhatkit_** for converting text to       handwriting.
-   - 
+    ![Screenshot](Lib.png)
+   - **_cnvsn_** method uses pyhatkit as **_kit.text_to_handwriting()_** to convert string to handwriting.
+   - **_disp_** method opens image from the location where output file is saved. Need to be changed.
+2. In the folder where the source code has been saved, open **_Powershell_** or **_Command Prompt_**.
+3. Type - "pyinstaller --onefile -w 'TexttoImg.py'
+4. You will get a directory looking like this - 
 
